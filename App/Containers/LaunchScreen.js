@@ -11,10 +11,10 @@ import styles from './Styles/LaunchScreenStyles';
 export default class LaunchScreen extends Component {
     render() {
         return (
-            <View style={styles.mainContainer}>
-                <ScrollView style={styles.container}>
-                    <View style={styles.section}>
-                        <Text style={styles.sectionText}>
+            <View style={styles.container}>
+                <ScrollView>
+                    <View>
+                        <Text>
                             This probably isn't what your app is going to look
                             like. Unless your designer handed you this screen
                             and, in that case, congrats! You're ready to ship.
