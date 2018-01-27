@@ -2,5 +2,6 @@
 
 export default {
     allowTextFontScaling: true,
-    allowRTL: false
+    allowRTL: false,
+    allowLayoutAnimationOnAndroid: true
 };
